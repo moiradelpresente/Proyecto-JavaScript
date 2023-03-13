@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpaceLearning</title>
     <meta name="description" content="Clases particulares de Historia, Idioma Español y Guitarra">
     <meta name="keywords" content="enseñanza, aprendizaje, guía, particular, apoyos académicos">
     <title>SpaceLearning</title>
@@ -14,7 +13,8 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- BS ICONOS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../scss/styles.css">
+    <link rel="stylesheet" href="./scss/styles.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -25,83 +25,95 @@
         </a>
         <nav>
             <ul>
-                <li><a href="../paginas/presentacion.html">Presentación</a></li>
-                <li><a href="../paginas/clases.html">Clases</a></li>
-                <li><a href="../paginas/pruebadeadmision.html">Prueba de admisión</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
+                <li><a href="./paginas/presentacion.html">Presentación</a></li>
+                <li><a href="./paginas/clases.html">Clases</a></li>
+                <li><a href="./paginas/pruebadeadmision.html">Prueba de admisión</a></li>
+                <li><a href="./paginas/contacto.html">Contacto</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
-    <!-- GALERIA -->
-    <main>
-
-        <section class="hero d-flex flex column justify-content-center align-items-center">
-            <div class="container transition">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <h2>Presentación</h2>
-                        <p>Somos un equipo de profesionales, altamente calificados, involucrados con nuestra tarea,
-                            dando
-                            siempre lo
-                            mejor de nosotros. En esta sección, te mostramos una síntesis de nuestro trabajo a lo largo
-                            de los
-                            años. Las
-                            imagenes demuestran la satisfacción de nuestros estudiantes, implementando y desarrollando
-                            las
-                            técnicas que
-                            implementamos.</p>
-                    </div>
+    <!-- HERO-->
+    <section class="hero d-flex flex column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center transition">
+                <div class="col-lg-6 text-center">
+                    <h2>Hola, esto es <span> SpaceLearning</span> somos docentes con vocación que les apasiona enseñar.
+                    </h2>
+                    <h3> Educar implicar dirigir, orientar, facilitar un cambio en la persona del otro. Lo intelectual
+                        se
+                        supedita aun interés mayor: la capacidad de desarrollar la vocación de otro. La vocación docente
+                        es el conjunto de intereses, necesidades, aptitudes, ideales y circunstancias personales que al
+                        conjuntarse hacen que el sujeto se sienta atraído hacia una profesión o forma de vida y capaz de
+                        afrontar los retos que supone. Un buen docente o profesor no se define por su actividad sino por
+                        el sentido que da a ella. El educador es aquel que dispone su vida, sus acciones al servicio de
+                        otro.</h3>
+                    <a href="./paginas/contacto.html">Contacto</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="galeria">
-           <div class="row">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria1.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria2.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria3.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria4.jpg"
-                    alt="imágen de galería">
+
+    <!--Servicios-->
+    <main>
+        <section class="d-flex flex-row mb-3">
+            <div class="container">
+                <img class="serviciosimagen transition" src="./imagenes/portada.jpg" alt="Silueta de mujer pensando">
             </div>
-
-            <div class="row">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria5.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria6.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria7.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria8.jpg"
-                    alt="imágen de galería">
-            </div>
-
-            <div class="row">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria9.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria10.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria11.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria12.jpg"
-                    alt="imágen de galería">
-            </div>
-
-            <div class="row">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria13.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria14.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria15.jpg"
-                    alt="imágen de galería">
-                <img class="col-xl-3 col-md-6 col-sm-12 imagenGaleria transition" src="../imagenes/galeria16.jpg"
-                    alt="imágen de galería">
+            <div class="servicios">
+                <h2>Como enseñamos</h2>
+                <h3>Estrategias</h3>
+                <p>Los procesos de enseñanza y aprendizaje se definen como las interacciones entre los estudiantes y los
+                    docentes. La enseñanza se planifica de acuerdo a los planes de estudios, se basa en necesidades
+                    identificadas mediante la evaluación y se concreta mediante la capacitación de los docentes. El
+                    proceso de enseñanza centrada en el estudiante, participativa e inclusiva, necesita del
+                    involucramiento de la comunidad a la hora de entregar y apoyar la educación. Se trata de tres
+                    maneras de entender las relaciones entre docente,
+                    discente, contenidos, estrategias y prácticas:
+                    - La comunicación como la primera vía de transmisión educativa.
+                    - El enfoque de sistemas que presenta los elementos implicados como
+                    elementos de entrada, de proceso y de salida de un sistema abierto y
+                    dinámico
+                    - La visión curricular que atiende a las metas u objetivos a lograr junto a los
+                    pasos o acciones para conseguirlos. </p>
             </div>
         </section>
     </main>
+
+    <main>
+        <section class="d-flex flex-row mb-3">
+            <div class="container">
+                <img class="serviciosimagen transition" src="./imagenes/portada1.jpg"
+                    alt="Niño recordando la lección de historia">
+            </div>
+            <div class="servicios">
+                <h2>Que proponemos</h2>
+                <h3>Estar a gusto</h3>
+                <p>Aprender se entiende, dicho simplemente, adquirir o incorporar nuevos conocimientos, habilidades,
+                    destrezas, valores o conductas, ya sea fruto de la experiencia vivida, o también del estudio y la
+                    instrucción. Es una de las capacidades mentales más importantes del ser humano, que le permite
+                    adaptar su conducta a las más diversas situaciones que se le presenten, resolviendo de manera
+                    exitosa los inconvenientes que pudieran surgirle. La fórmula “aprender a aprender” (abreviada como
+                    AaA) se utiliza a menudo para referirse a una actividad metacognitiva, que implica el diseño de las
+                    estrategias más convenientes para permitir o facilitar el aprendizaje.
+
+                    Dicho más fácilmente, aprender a aprender significa conocer cuál es el modo ideal en que podemos
+                    aprender algo y diseñar una estrategia que nos sirva para hacerlo, algo que se halla en el corazón
+                    de la experiencia autodidacta de aprendizaje: quienes aprenden algo sin necesidad de maestros o
+                    enseñanza formal.
+
+                    En ello intervienen no sólo elementos cognitivos o mentales, sino también sociales, emocionales y
+                    afectivos, ya que el acto de aprender, según se ha comprobado, está conectado con distintas áreas de
+                    la personalidad y la mente, no sólo con lo estrictamente lógico. Así, por ejemplo, se suele aprender
+                    más rápido aquello que nos emociona, que aquello que nos resulta indiferente.
+                </p>
+            </div>
+        </section>
+    </main>
+
+
     <!--FOOTER-->
     <footer class="titulo">
         <div class="footer__fl">
@@ -159,10 +171,12 @@
         </div>
     </footer>
 
+
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></scrip>
 </body>
 
 </html>
