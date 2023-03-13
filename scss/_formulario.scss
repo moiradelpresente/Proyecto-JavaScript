@@ -1,0 +1,57 @@
+p {
+    color: $color-fuentes-secundario;
+    justify-content: flex-start;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 3rem;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.8rem;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.space {
+   margin: 5%;
+   height: calc(100vh - 10rem);
+}
+
+
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+width: 100%;
+position: relative;
+
+}
+
+input textarea {
+    font: 1rem sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+
+textarea {
+    vertical-align: top;
+    height: 100%;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
